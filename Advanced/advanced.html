@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Advanced Exerciese</title>
+
+	<style>
+		img {
+			width: 20vw;
+		}
+
+		.pic {
+			list-style: none;
+		}
+
+		.green {
+			color: green;
+		}
+
+		.red {
+			color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="result">
+
+
+	</div>
+
+	<script src="data.json" type="text/javascript"></script>
+	<script>
+		var myBooks = JSON.parse(books);
+
+		for (let i = 0; i < myBooks.length; i++) {
+
+			// document.getElementById('result').innerHTML += "<ul><li> Titel: " + myBooks[i].titel + "</li>" + "<li> Author: " + myBooks[i].author + "</li>" + "<li class='pic'> <img src='" + myBooks[i].cover + "'></li><li><div class='readed'>" + myBooks[i].read + "</div></li></ul>";
+
+
+			var read = myBooks[i].read;
+			console.log(read);
+
+			if (read === true) {
+				document.getElementById('result').innerHTML += "<ul><li> Titel: " + myBooks[i].titel + "</li>" + "<li> Author: " + myBooks[i].author + "</li>" + "<li class='pic'> <img src='" + myBooks[i].cover + "'></li><li><div class='green'>" + myBooks[i].read + "</div></li></ul>";
+				// document.getElementByClass('readed').style.color= green;
+
+			} else {
+				document.getElementById('result').innerHTML += "<ul><li> Titel: " + myBooks[i].titel + "</li>" + "<li> Author: " + myBooks[i].author + "</li>" + "<li class='pic'> <img src='" + myBooks[i].cover + "'></li><li><div class='red'>" + myBooks[i].read + "</div></li></ul>";
+				// document.getElementByClass('readed').style.color= red;
+			}
+
+
+		}
+
+	</script>
+</body>
+
+</html>

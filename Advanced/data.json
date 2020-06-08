@@ -1,0 +1,29 @@
+var books = `[
+{
+	"titel": "Javascript for Dummies", 
+	"author": "Dummy Dumb", 
+	"read": false,
+	"cover": "img/Dummies.jpg"
+} , {
+	"titel": "CSS makes it pretty", 
+	"author": "Bob Ross", 
+	"read": true,
+	"cover": "img/css-pretty.jpg"
+} , {
+	"titel": "Don't be a HTML", 
+	"author": "Max Freud", 
+	"read": false,
+	"cover": "img/html.jpg"
+} , {
+	"titel": "Who's afraid of JavaScript", 
+	"author": "Virgina Wolf", 
+	"read": true,
+	"cover": "img/afraid_JS.jpg"
+} , {
+	"titel": "Where is Json", 
+	"author": "unknown", 
+	"read": false,
+	"cover": "img/waldo.jpg"
+}
+
+]`
