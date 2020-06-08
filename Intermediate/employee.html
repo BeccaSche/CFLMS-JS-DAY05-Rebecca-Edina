@@ -1,0 +1,40 @@
+<html>
+ 
+<head>
+    <title>Creation of array object in javascript using JSON</title>
+    <script  type="text/javascript" src="employee.json"></script>
+</head>
+ 
+<body>
+
+    
+
+
+
+    <script>
+    document.writeln("<h2>JSON array object</h2>");
+
+    var myEmployees = JSON.parse(employees);
+    
+    
+    document.writeln("<table border='2'><tr>");
+
+    for (let i = 0; i < myEmployees.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=100 >");
+        document.writeln("<tr><td><b>User ID</b></td><td width=50>" + myEmployees[i].userId + "</td></tr>");
+        document.writeln("<tr><td><b>First Name</b></td><td width=50>" + myEmployees[i].firstName + "</td></tr>");
+        document.writeln("<tr><td><b>Last Name</b></td><td width=50>" + myEmployees[i].lastName + "</td></tr>");
+        document.writeln("<tr><td><b>Email Address</b></td><td width=50>" + myEmployees[i].emailAddress + "</td></tr>");
+        document.writeln("<tr><td><b>Job Title</b></td><td width=50>" + myEmployees[i].jobTitleName + "</td></tr>");
+        document.writeln("<tr><td><b>Salary</b></td><td width=50>" + myEmployees[i].salary + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+    }
+    
+    document.writeln("</tr></table>");
+    </script>
+    
+</body>
+ 
+</html>

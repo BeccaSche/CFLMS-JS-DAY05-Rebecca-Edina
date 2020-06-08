@@ -1,0 +1,74 @@
+var employees = `[
+ {
+      "userId": "29893944817",
+      "firstName": "Patrik",
+      "lastName": "Jonathan",
+      "emailAddress": "patrik.k.jonathan@gmail.com",
+      "jobTitleName" : "Developer",
+      "salary" : "2000"
+  }, {
+      "userId": "67853944817",
+      "firstName": "James",
+      "lastName": "Smith",
+      "emailAddress": "james.smith@gmail.com",
+      "jobTitleName" : "Secretary",
+      "salary" : "1500"
+  }, {
+      "userId": "98763944817",
+      "firstName": "Sam",
+      "lastName": "White",
+      "emailAddress": "sam.white@gmail.com",
+      "jobTitleName" : "Chef",
+      "salary" : "5000"
+  }, {
+      "userId": "67853944817",
+      "firstName": "James",
+      "lastName": "Smith",
+      "emailAddress": "james.smith@gmail.com",
+      "jobTitleName" : "Secretary",
+      "salary" : "1500"
+  },{
+      "userId": "43213944817",
+      "firstName": "Edina",
+      "lastName": "Muray",
+      "emailAddress": "edina.muray@gmail.com",
+      "jobTitleName" : "Unicorn",
+      "salary" : "3500"
+  },{
+      "userId": "63843944817",
+      "firstName": "Rebecca",
+      "lastName": "Schedler",
+      "emailAddress": "rebecca.schedler@gmail.com",
+      "jobTitleName" : "Web Developer",
+      "salary" : "3500"
+  },{
+      "userId": "67853944817",
+      "firstName": "Mary",
+      "lastName": "Poppins",
+      "emailAddress": "mary.poppins@gmail.com",
+      "jobTitleName" : "Front End Wiz",
+      "salary" : "1700"
+  },{
+      "userId": "32763944817",
+      "firstName": "Goofy",
+      "lastName": "Dog",
+      "emailAddress": "goofy.dog@gmail.com",
+      "jobTitleName" : "Security",
+      "salary" : "1000"
+  },{
+      "userId": "93763944817",
+      "firstName": "Sara",
+      "lastName": "Mayo",
+      "emailAddress": "sara.mayo@gmail.com",
+      "jobTitleName" : "Finance",
+      "salary" : "2300"
+  },{
+      "userId": "59433944817",
+      "firstName": "Bull",
+      "lastName": "Dog",
+      "emailAddress": "bull.dog@gmail.com",
+      "jobTitleName" : "Secret agent",
+      "salary" : "5400"
+  }
+]`
+

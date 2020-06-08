@@ -1,2 +1,9 @@
-var sandwiches = `[{"sandwich": "Hot Dog", "calories": "300"}, {"sandwich": "hamburger", "calories": "260"}]`;
+var sandwiches = `[
+	{
+		"sandwich": "Hot Dog", "calories": "300"
+	}, {
+	"sandwich": "hamburger", "calories": "260"
+}]`;
+
+
 var fries = `[{"fries_size": "Small French Fries", "calories": "800"}, {"fries_size": "Large French Fries", "calories": "570"}]`;
