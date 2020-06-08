@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basic Exercise</title>
+
+<style>
+	.hot {
+		color:  red;
+	}
+
+	#result
+		{
+		color:  green;
+	}
+	
+</style>
+
+</head>
+
+<body>
+
+<div id="result">test</div>
+
+<script  type="text/javascript" src="data.json" ></script>
+
+<script>
+ var mySandwiches = JSON.parse(sandwiches); 
+ console.log(mySandwiches[0].sandwich); 
+
+ var myFries = JSON.parse(fries); 
+ console.log(myFries[0].calories);
+
+ // document.getElementById('result').innerHTML = myFries[0].calories;
+ 
+ for (let i=0; i < mySandwiches.length; i++) {
+
+ document.getElementById('result').innerHTML += "<div class = 'hot'> My favorite sandwich is a " + mySandwiches[i].sandwich + " which has approximately " + mySandwiches[i].calories + " calories, along with it I enjoy eating " + myFries[i].fries_size + " which have about " + myFries[i].calories + " calories.</div><br>";
+ }
+</script>	
+</body>
+</html>
